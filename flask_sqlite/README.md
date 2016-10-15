@@ -19,19 +19,31 @@
 #### 3. running the app
 
 ##### for mac
-- [ ]  in the terminal, make sure you are inside your <flask_app> folder
-- [ ]  Use ``` cd <directory_name>``` to move across and further into your directories / folders
-- [ ]  Use ``` cd .. ``` to go back up a directory
-- [ ]  Use ``` ls ``` to list the files in your current directory
-- [ ]  Use ``` pwd ``` to **p**rint **w**orking **d**irectory
+- [x] in the terminal, make sure you are inside your <flask_app> folder
+- [ ] Use ``` cd <directory_name>``` to move across and further into your directories / folders
+- [ ] Use ``` cd .. ``` to go back up a directory
+- [ ] Use ``` ls ``` to list the files in your current directory
+- [ ] Use ``` pwd ``` to **p**rint **w**orking **d**irectory
 
 
-#### for windows
-- [ ] 1. in the command line, make sure you are inside your <flask_app> folder/directory.
-
+##### for windows
+- [ ] in the command line, make sure you are inside your <flask_app> folder/directory.
 For our purposes here, the only command that is different between the mac terminal and windows command line
 is ``` dir ```  this is windows version of mac's ``` ls ```
 
+##### command to type to start the app
+Using your computer's respective command line, you can proceed once you are in the directory containing your start.py file
+Type ``` python3 start.py ```
+If all is well you should see
+```
+* Running on http://127.0.0.1:5000/ (Press CTRL-C to quit)
+* Restarting with stat
+* Debugger is active
+* Debugger pin code: ...
+```
+Go to ``` http://127.0.0.1:5000/ ``` in your browser, and check that the app works!
+
+Congrats! :money:
 
 
 ## file directory structure
