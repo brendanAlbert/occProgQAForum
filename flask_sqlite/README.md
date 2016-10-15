@@ -19,14 +19,11 @@
 #### 3. running the app
 
 ##### for mac
-- [ ] 1. in the terminal, make sure you are inside your <flask_app> folder.
-To do this, Use ``` cd <directory_name>``` to move across and further into your directories / folders
-
-Use ``` cd .. ``` to go back up a directory
-
-Use ``` ls ``` to list the files in your current directory
-
-Use ``` pwd ``` to show your current directory.
+- [ ]  in the terminal, make sure you are inside your <flask_app> folder
+- [ ]  Use ``` cd <directory_name>``` to move across and further into your directories / folders
+- [ ]  Use ``` cd .. ``` to go back up a directory
+- [ ]  Use ``` ls ``` to list the files in your current directory
+- [ ]  Use ``` pwd ``` to **p**rint **w**orking **d**irectory
 
 
 #### for windows
