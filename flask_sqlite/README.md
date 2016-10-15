@@ -9,6 +9,21 @@
 - [ ] 2. at the command line or terminal, type ```  pip3 install Flask  ```
 - [ ] 3. make a directory/folder to store all these files in
 
+## file directory structure
+### the layout of your flask_app folder should look like this:
+
+
+```
+flask_app
+   templates
+     home.html
+     list.html
+     student.html
+     result.html
+ start.py
+```
+
+
 #### 2. set up the sqlite database 
 - [ ] 1. open the terminal/cmd line and navigate to the directory/folder you will be storing these files in.
 - [ ] 2. create the database by typing ```  sqlite3 database.db  ```
@@ -46,16 +61,3 @@ Go to ``` http://127.0.0.1:5000/ ``` in your browser, and check that the app wor
 If it works for you, Congrats! :moneybag:
 
 
-## file directory structure
-### the layout of your flask_app folder should look like this:
-
-
-```
-flask_app
-   templates
-     home.html
-     list.html
-     student.html
-     result.html
- start.py
-```
