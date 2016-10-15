@@ -14,3 +14,17 @@
 - [ ] 3. if it worked, you should see something like "SQLite version 3.8.10.2 2015-05-20 ... Enter ".help" for usage hints"
 - [ ] 4. time to create a table in the database. type ```  create table students (name TEXT, addr TEXT, city TEXT, pin TEXT); ```
 - [ ] 5. now if you type ```  .tables  ``` and you see "students" appear, you're ready to [rock](https://www.tutorialspoint.com/flask/flask_sqlite.htm)
+
+
+## file directory structure
+### the layout of your flask_app folder should look like this:
+
+```
+flask_app
+   templates
+     home.html
+     list.html
+     student.html
+     result.html
+start.py
+```
