@@ -4,10 +4,10 @@
 
 ## file structure
 
-`
+```
 flask_sqlalchemy
   templates
     new.html
     show_all.html
   main.py
-`
+```
