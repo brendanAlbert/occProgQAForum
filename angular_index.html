@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoApp</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div ng-app="myShoppingList" ng-controller="myCtrl">
+      <ul>
+        <li ng-repeat="x in products">{{x}}<span ng-click="removeItem($index)"> &times;</span></li>
+      </ul>
+      <input ng-model="addMe">
+      <button ng-click="addItem()">Add</button>
+    </div>
+  </body>
+</html>
