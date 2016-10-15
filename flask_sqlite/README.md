@@ -1,6 +1,7 @@
 # a simple flask database app :shipit:
 
  ~ Code credit belongs to: [tutorialspoint.com/flask](https://www.tutorialspoint.com/flask/flask_sqlite.htm)
+ 
 
 ## steps to take before this code will work for you:
 #### 1. setting up python3 and flask
@@ -16,8 +17,11 @@
 - [ ] 5. now if you type ```  .tables  ``` and you see "students" appear, you're ready to [rock](https://www.tutorialspoint.com/flask/flask_sqlite.htm)
 
 
+
+
 ## file directory structure
 ### the layout of your flask_app folder should look like this:
+
 
 ```
 flask_app
