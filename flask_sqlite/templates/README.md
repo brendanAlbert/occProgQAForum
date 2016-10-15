@@ -6,10 +6,10 @@
 
 ```
 flask_app
-|--templates
-|    |-home.html
-|    |-list.html
-|    |-student.html
-|    |-result.html
-|--start.py
+   templates
+     home.html
+     list.html
+     student.html
+     result.html
+start.py
 ```
