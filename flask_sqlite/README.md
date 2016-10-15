@@ -3,12 +3,12 @@
  ~ Code credit belongs to: [tutorialspoint.com/flask](https://www.tutorialspoint.com/flask/flask_sqlite.htm)
 
 ## steps to take before this code will work for you:
-#### setting up python3 and flask
+#### 1. setting up python3 and flask
 - [x] 1. install [python3](https://www.python.org/downloads/release/python-352/)
 - [ ] 2. at the command line or terminal, type: 'pip3 install Flask'
 - [ ] 3. make a directory/folder to store all these files in
 
-#### set up the sqlite database 
+#### 2. set up the sqlite database 
 - [ ] 1. open the terminal/cmd line and navigate to the directory/folder you will be storing these files in.
 - [ ] 2. create the database. type 'sqlite3 database.db'
 - [ ] 3. if it worked, you should see something like "SQLite version 3.8.10.2 2015-05-20 ... Enter ".help" for usage hints"
