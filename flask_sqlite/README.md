@@ -30,5 +30,5 @@ flask_app
      list.html
      student.html
      result.html
-start.py
+ start.py
 ```
