@@ -43,7 +43,7 @@ If all is well you should see
 ```
 Go to ``` http://127.0.0.1:5000/ ``` in your browser, and check that the app works!
 
-Congrats! :money:
+If it works for you, Congrats! :moneybag:
 
 
 ## file directory structure
