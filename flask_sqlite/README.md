@@ -4,4 +4,4 @@
 
 ## steps to take before this code will work for you:
 - [x] 1. install [python3](https://www.python.org/downloads/release/python-352/)
-- [ ] 2. At the command line or terminal, type: 'pip3 install Flask'. If you type pip instead of pip3, you are calling the python 2.7 flavour of pip, not recommended!
+- [ ] 2. At the command line or terminal, type: 'pip3 install Flask'
