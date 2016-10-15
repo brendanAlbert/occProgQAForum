@@ -27,7 +27,7 @@ Use ``` pwd ``` to show your current directory.
 
 
 #### for windows
-- [ ] 1. in the command line, make sure you are inside your <flask_app> folder/direcotry.
+- [ ] 1. in the command line, make sure you are inside your <flask_app> folder/directory.
 For our purposes here, the only command that is different between the mac terminal and windows command line
 is ``` dir ```  this is windows version of mac's ``` ls ```
 
