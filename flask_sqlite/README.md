@@ -16,6 +16,20 @@
 - [ ] 4. time to create a table in the database. type ```  create table students (name TEXT, addr TEXT, city TEXT, pin TEXT); ```
 - [ ] 5. now if you type ```  .tables  ``` and you see "students" appear, you're ready to [rock](https://www.tutorialspoint.com/flask/flask_sqlite.htm)
 
+#### 3. running the app
+
+##### for mac
+- [ ] 1. in the terminal, make sure you are inside your <flask_app> folder.
+To do this, Use ``` cd <directory_name>``` to move across and further into your directories / folders
+Use ``` cd .. ``` to go back up a directory
+Use ``` ls ``` to list the files in your current directory
+Use ``` pwd ``` to show your current directory.
+
+
+#### for windows
+- [ ] 1. in the command line, make sure you are inside your <flask_app> folder/direcotry.
+For our purposes here, the only command that is different between the mac terminal and windows command line
+is ``` dir ```  this is windows version of mac's ``` ls ```
 
 
 
