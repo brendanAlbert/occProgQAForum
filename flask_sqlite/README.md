@@ -47,8 +47,11 @@ For our purposes here, the only command that is different between the mac termin
 is ``` dir ```  this is windows version of mac's ``` ls ```
 
 ##### command to type to start the app
-Using your computer's respective command line, you can proceed once you are in the directory containing your start.py file
+Using your computer's respective command line, you can proceed once you are in the directory containing your start.py file.
+
 Type ``` python3 start.py ```
+
+
 If all is well you should see
 ```
 * Running on http://127.0.0.1:5000/ (Press CTRL-C to quit)
