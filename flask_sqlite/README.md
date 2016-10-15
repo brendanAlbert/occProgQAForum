@@ -5,7 +5,7 @@
 ## steps to take before this code will work for you:
 #### 1. setting up python3 and flask
 - [x] 1. install [python3](https://www.python.org/downloads/release/python-352/)
-- [ ] 2. at the command line or terminal, type: 'pip3 install Flask'
+- [ ] 2. at the command line or terminal, type ```shell pip3 install Flask```
 - [ ] 3. make a directory/folder to store all these files in
 
 #### 2. set up the sqlite database 
