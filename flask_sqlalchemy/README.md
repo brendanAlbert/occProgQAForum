@@ -3,7 +3,7 @@
 
 ## steps to start project
 ### if you already have python3 and flask installed, skip to step 3
-1. Install Python3
+1. Install [Python3](https://www.python.org/downloads/release/python-352/)
 2. Install Flask `pip3 install Flask`
 
 3. Install Flask - SQLAlchemy extension `pip3 install flask-sqlalchemy`
