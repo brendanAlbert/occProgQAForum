@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Q &amp; A Forum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+      @font-face { font-family: Fira_Code; src: url('fonts/FiraCode-Retina.ttf'); }
+      @font-face { font-family: Fira_Code; src: url('fonts/FiraCode-Regular.ttf'); }
+      body { font-family: Fira_Code; background-color: #3F4954; /* bluegray*/ }
+      .navbar { margin: auto; width: 100%; padding: 10px; text-align: center; background-color: #3F4954; }
+      .navbar-header { margin: 20px; display: inline-flex; color: #E8D0A9; }
+      #gray { padding: 0 .3em 0 .3em; margin-left: .8em; display: inline-block; text-align: center; font-size: 14px; color: #3F4354; background-color: #D3D3D3; }
+      #icon { color: #E8D0A9; padding: 0 1em 0 .5em; }
+      .glyphicon { font-size: 32px; }
+      .glyphicon glyphicon-log-in { margin: 50px; text-align: right; padding: 25px; }
+      .grow { transition: all .2s ease-in-out; }
+      .grow:hover { transform: scale(1.5); }
+      .vote_cell { text-align: center; border-radius: 5px;float: left; width: 15%; height: auto; margin: 3% 2%; padding: 2% 2%; background-color: #bbb; }
+      .question_cell {  }
+      .title_cell { border-radius: 5px; padding: 2% 2%; display: inline; background-color: #fff;}
+      .text_cell { border-style: solid; border-width: 2px; border-color: #aaa; border-radius: 5px; padding: 1% 1%; margin: 1% 1%; background-color: #cbf; display: inline;}
+    </style>
+  </head>
+
+<!-- This is the navbar code -->
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">OCC Programming Club Q&amp;A<div id="gray">Forum</div></div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="grow"><a href="#">C++</a></li>
+        <li class="grow"><a href="#">Java</a></li>
+        <li class="grow"><a href="#">Python</a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          Login<span id="icon" class="glyphicon glyphicon-user"></span>
+        </button>
+        <!-- end button trigger modal -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  &times;
+                </button>
+
+                <h4 class="modal-title" id="myModalLabel">
+                  Login
+                </h4>
+              </div>
+              <div class="modal-body">
+                Username
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end modal -->
+      </form>
+    </div>
+  </nav>
+
+  <!-- end of navbar -->
+
+  <body>
+  <!-- Here are the filter buttons, sort by language, most recent, unanswered, etc. -->
+
+
+    <!-- Here is where the question goes-->
+
+    <section style=" display: table; width: 78%; border-radius: 5px; height: auto; margin: 4% 6%; background-color: #f3f3f3; " class="">
+
+        <!--  vote cell -->
+        <span class="vote_cell">
+          <div style="display: block; margin: 1% .5%; padding: 5% .5%;" class="glyphicon glyphicon-chevron-up"></div>
+          <div style="display: block; margin: 1% .5%; padding: 5% .5%;" class="glyphicon glyphicon-chevron-down"></div>
+        </span>
+        <!-- end vote cell -->
+
+        <!-- question box -->
+          <div style="padding: 2% 5%; margin: 2% 2%; border-radius: 5px; float: right; width: 75%; height: auto; background-color: #aaa;" class="question_box">
+            <div style=" font-size: 20px; border-radius: 5px; background-color: #ccc; float: right; display: inline; padding: 1% 2%; margin: 1% 1%; width: 100%; height: auto;" class="">
+              Sick title bro
+            </div>
+            <div style=" border-radius: 5px; background-color: #abc; float: right; display: inline; padding: 2% 2%; margin: 1% 1%; width: 100%; height: auto;" class="">
+              Dope content goes here
+            </div>
+          </div>
+          <!-- end question box -->
+    </section>
+
+
+    <div style="margin: 1% 8%; width: 75%; display: inline-block;" class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Python</h3>
+      </div>
+      <div class="well">
+        print("Hello World!")
+      </div>
+    </div>
+
+    <div style="margin: 1% 8%; width: 75%;display: inline-block;" class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">C++</h3>
+      </div>
+      <div class="panel-body">
+        cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+      </div>
+    </div>
+
+    <div style="margin: 1% 8%; width: 75%; display: inline-block" class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Java</h3>
+      </div>
+      <div class="panel-body">
+        System.out.println("Hello world!")
+      </div>
+    </div>
+
+
+  </body>
+</html>
